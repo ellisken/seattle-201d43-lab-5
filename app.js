@@ -91,8 +91,7 @@ function sumArray(sumArr) { //eslint-disable-line
   //Set total equal to first number in the array
   var total = sumArr[0];
 
-  //Else, add the next index for all remaining numbers in the array
-
+  //Add the remaining numbers in the array
   for(var i = 1; i < sumArr.length; i++){
     total = sum(total, sumArr[i])[0];
   }
